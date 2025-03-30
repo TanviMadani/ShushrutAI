@@ -323,6 +323,6 @@ def get_ans(q: Query):
         get_web_result: RunResponse = web_agent.run(q.query)
         return {"response": get_web_result.content}
         
-if name == "main":
+if __name__ == "__main__":
     import uvicorn
     uvicorn.run('main:app', host="0.0.0.0", port=6700, reload=True)
