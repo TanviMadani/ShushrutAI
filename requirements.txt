@@ -17,3 +17,4 @@ google-genai
 agno
 duckduckgo-search
 pypdf
+pydantic
